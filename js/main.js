@@ -108,7 +108,6 @@ loginForm.addEventListener ('submit', (e)=>{
             
         })
     }
-    
-    window.location.href = '../pages/shop.html'
+    window.location.href = './pages/shop.html'
 
 })
