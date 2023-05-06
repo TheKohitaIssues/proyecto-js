@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "nombre":"CajonBasico",
+        "tipo":"cajon",
+        "cantidad":1,
+        "desc":"Un cajon basico de frutas y verduras",
+        "precio":1200,
+        "img":"../img/cajonBasico.png"
+    },
+    {
+        "id":2,
+        "nombre":"CajonCompleto",
+        "tipo":"cajon",
+        "cantidad":1,
+        "desc":"Un cajon completo de frutas y verduras",
+        "precio":2000,
+        "img":"../img/cajonCompleto.png"
+    },
+    {
+        "id":3,
+        "nombre":"MegaCajon",
+        "tipo":"cajon",
+        "cantidad":1,
+        "desc":"Un cajon repleto de frutas y verduras",
+        "precio":3500,
+        "img":"../img/megaCajon.png"
+    }
+]

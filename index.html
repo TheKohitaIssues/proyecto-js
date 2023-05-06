@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css" rel="stylesheet">
+    <title>Login Verduleria</title>
+</head>
+<body>
+    <div>
+        <main>
+            <div class="bigContainer">
+
+                <div class="backgroundBox">
+
+                    <div class="backgroundBoxLogin">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesion para entrar en la pagina</p>
+                        <button id="btnIniciarSesion">Iniciar Sesion</button>
+                    </div>
+
+                    <div class="backgroundBoxRegister">
+                        <h3>¿Aun no tienes una cuenta?</h3>
+                        <p>Registrate para que puedas iniciar sesion</p>
+                        <button id="btnRegistrarse">Registrarse</button>
+                    </div>
+                    
+                </div>
+                <!-- Formulario de login y registro -->
+                <div class="loginRegisterContainer">
+
+                    <!-- formulario de login -->
+                    <form action="" class="loginForm" id="loginFormId">
+                            <h2>Iniciar Sesion</h2>
+                            <input type="text" placeholder="Correo Electronico" id="email" autocomplete="off" required autofocus>
+                            <input type="password" placeholder="Contraseña" id="password" autocomplete="off" required>
+                            <button type="submit" value="ingresar">Iniciar sesion</button>
+                    </form>
+
+                    <!-- formulario de registro  -->
+                    <form action="" class="registerForm" id="registerFormId">
+                        <h2>Registrarse</h2>
+                        <input type="text" placeholder="Nombre completo" id="name" autocomplete="off" required autofocus>
+                        <input type="email" placeholder="Correo Electronico" id="emailR" autocomplete="off" required>
+                        <input type="text" placeholder="Nombre de Usuario" id="username" autocomplete="off" required autofocus>
+                        <input type="password" placeholder="Contraseña" id="passwordR" autocomplete="off" required>
+                        <button type="submit" value="registro">Registrarse</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>
